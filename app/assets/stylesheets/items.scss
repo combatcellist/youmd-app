@@ -13,8 +13,6 @@
       width: 70%;
       padding: 20px;
       
-      
-  
       .content {
         border: 2px solid #000;
         
@@ -51,4 +49,39 @@
       }
     }
   }
- }
+}
+
+#items-new {
+  form {
+    textarea{
+      width: 90%;
+      height: 300px;
+      padding: 5px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+    }
+    .button {
+      margin-top: 10px;
+      display       : inline-block;
+      border-radius : 5%;         
+      font-size     : 18pt;       
+      text-align    : center;     
+      cursor        : pointer;     
+      padding       : 12px 12px;  
+      background    : #333;   
+      color         : #ffffff; 
+      line-height   : 1em;         
+      transition    : .3s;       
+      box-shadow    : 6px 6px 3px #666666; 
+      border        : 2px solid #000066;   
+    }
+    .button:hover {
+      box-shadow    : none;       
+      color         : #333;     
+      background    : #ffffff;   
+    }
+  }
+}
